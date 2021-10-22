@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Clase 17 - Pseudo elementos y Pseudo clases</title>
+    <title>Añade tu super</title>
     <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
@@ -24,7 +24,44 @@
    
       </div>
     </header>
-    <main class="main">
+    <main>
+      <form>
+        <fieldset>
+          <legend>Añade tu super heroe!</legend>
+            <p>Agrega tu personaje favorito!</p>
+ 
+                <label for="name">Nombre</label>
+                  <input type="name" id="name" name="name" requerid placeholder="Coloque su super nombre!">
+
+                <label for="especie">Especie</label>
+                  <select name="especie" id="especie">
+                    <option value=""></option>
+                    <option value="perro">Perro</option>
+                    <option value="gato">Gato</option>
+                    <option value="loro">Loro</option>                  
+                  </select>
+                
+                  <label for="date">Fecha</label>
+                  <input type="date" id="date" name="date" requerid>
+
+                  <label for="file">Agregar foto</label>
+                  <input type="file" id="file" name="file" requerid accept=".jpg">
+
+                  <textarea id="text" name="text" requerid placeholder="Descripción"></textarea>
+
+                  <ul>
+                    <li>                  
+                      <label for="power">Poderes</label>
+                      <input type="radio" name="file" value="Volar">
+                      <input type="radio" name="file" value="Superinteligencia">
+                      <input type="radio" name="file" value="Rayo laser">
+                    </li>
+                  </ul>
+                
+                  
+  
+        </fieldset>
+      </form>
 
     </main>
     <footer class="footer">
